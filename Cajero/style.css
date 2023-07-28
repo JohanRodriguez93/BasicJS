@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilos para las opciones del cajero */
+  .accounts, .options, .transactions {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .accounts label, .options h2, .transactions h2 {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .accounts select, .accounts input[type="password"],
+  .options input[type="number"], .options button, .transactions ul {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .accounts select, .accounts input[type="password"],
+  .options input[type="number"], .options button {
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .accounts select {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .options input[type="number"] {
+    width: 100%;
+    max-width: 180px;
+  }
+  
+  .options button {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .options button:hover {
+    background-color: #45a049;
+  }
+  
+  .transactions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    margin-bottom: 5px;
+  }
+  
+  #errorDisplay  {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  #balanceDisplay {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+  }
+  /* Estilos para los botones de ingreso, retiro y cerrar sesión */
+  #depositButton, #withdrawButton, #logoutButton {
+    background-color: #008CBA;
+  }
+  
+  #depositButton:hover, #withdrawButton:hover, #logoutButton:hover {
+    background-color: #007aa3;
+  }
+  
+  /* Estilo para el mensaje de bienvenida */
+  #welcomeMessage {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para el mensaje de error */
+  #errorDisplay {
+    display: none;
+  }
