@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS+DOM</title>
+    <link rel="stylesheet" href="style.css" /> 
+</head>
+<body>
+    <h1>Perfumes Latinos</h1>
+    <h2>Ventas y empleado del mes</h2>
+    <form id="salesForm">
+        <h3>Ventas Juana</h3>
+        <div>
+            <label for="juanaAqua">Aqua:</label>
+            <input type="number" id="juanaAqua" name="juanaAqua">
+            <label for="juanaEmocion">Emoción:</label>
+            <input type="number" id="juanaEmocion" name="juanaEmocion">
+        </div>
+        <div>
+            <label for="juanaAlegria">Alegría:</label>
+            <input type="number" id="juanaAlegria" name="juanaAlegria">
+            <label for="juanaFrescura">Frescura:</label>
+            <input type="number" id="juanaFrescura" name="juanaFrescura">
+        </div>
+        
+        <h3>Ventas Pedro</h3>
+        <div>
+            <label for="pedroAqua">aceite:</label>
+            <input type="number" id="pedroAqua" name="pedroAqua">
+            <label for="pedroEmocion">Emoción:</label>
+            <input type="number" id="pedroEmocion" name="pedroEmocion">
+        </div>
+        <div>
+            <label for="pedroAlegria">Alegría:</label>
+            <input type="number" id="pedroAlegria" name="pedroAlegria">
+            <label for="pedroFrescura">Frescura:</label>
+            <input type="number" id="pedroFrescura" name="pedroFrescura">
+        </div>
+        <button type="submit" onclick="capturaVentas()" id="Ventasenviadas">Enviar</button>
+      </form>
+      
+        <h2>Resultado</h2>
+        <p id="total-venta-juana"></p>
+        <p id="total-venta-pedro"></p>
+        <p id="resultado"></p>
+    
+
+        <script src="script.js"></script>
+</body>
+</html>

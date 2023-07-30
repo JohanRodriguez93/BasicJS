@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-image: url('https://images.pexels.com/photos/286755/pexels-photo-286755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px; 
+    text-shadow: 2px 2px 4px #000; 
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 4px #000; 
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #ffffff; 
+    text-align: center;
+    text-shadow: 2px 2px 4px #000; 
+    padding: 10px; 
+  }
+  
+  form#salesForm {
+    margin-bottom: 10px;
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/12951503/pexels-photo-12951503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    border-radius: 20px;
+  }
+  
+  form#salesForm div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    width: 120px;
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px #000; 
+    font-size: 15px;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  
+  button#Ventasenviadas {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #0099cc;
+    color: #ffffff; 
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000; 
+    font-size: 15px;
+  }
+  
+  h2#resultados {
+    margin-top: 10px;
+    color: #ffffff; 
+    text-align: center; 
+    padding: 10px; 
+    text-shadow: 2px 2px 4px #000; 
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #ffffff; 
+    text-align: center;
+    padding: 8px; 
+    text-shadow: 2px 2px 4px #000; 
+  }
+  
+  p#total-venta-juana, p#total-venta-pedro, p#resultado {
+    font-weight: bold;
+    font-size: 20px;
+  }
