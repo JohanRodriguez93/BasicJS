@@ -87,7 +87,7 @@ const productos = {
     let totalVentaPedroParrafo = document.getElementById('total-venta-pedro');
   
     if (ventasjuana > ventaspedro) {
-      resultadoParrafo.textContent = 'El empleado del mes es Juana :3';
+      resultadoParrafo.textContent = 'El empleado del mes es Juana';
       console.log('El empleado del mes es Juana');
     } else if (ventaspedro > ventasjuana) {
       resultadoParrafo.textContent = 'El empleado del mes es Pedro';
